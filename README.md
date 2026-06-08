@@ -25,12 +25,10 @@ A CLI-based Python trading bot that places MARKET and LIMIT orders on Binance Te
 ```text
 trading_bot/
 │
-├── .env
-├── .gitignore
 ├── cli.py
 ├── requirements.txt
 ├── README.md
-├── trading_bot.log
+├── .gitignore
 │
 └── bot/
     ├── __init__.py
@@ -148,3 +146,26 @@ The application validates:
 * python-binance
 * python-dotenv
 * requests
+
+---
+
+## Local Files (Not Committed)
+
+The following files are created locally and are excluded from GitHub via `.gitignore`:
+
+* `.env`
+* `trading_bot.log`
+
+---
+
+## Test Results
+
+### MARKET Order
+
+Successfully executed BUY MARKET order on Binance Testnet.
+
+### LIMIT Order
+
+Successfully placed SELL LIMIT order on Binance Testnet.
+
+Logs available upon request.
